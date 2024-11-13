@@ -1,0 +1,4 @@
+#create, first time
+python -m venv env
+#activate, each time
+.\env\Scripts\Activate
