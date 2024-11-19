@@ -1,0 +1,43 @@
+# Fitxers i carpetes generats per Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.sqlite3
+
+# Entorn virtual (venv)
+venv/
+env/
+.venv/
+
+# Fitxers de configuració de l'IDE
+.idea/
+.vscode/
+*.swp
+
+# Fitxers de logs
+*.log
+
+# Fitxers sensibles (ex. claus d’API, configuració)
+*.env
+.env.*
+
+# Fitxers temporals del sistema operatiu
+.DS_Store
+Thumbs.db
+
+# Fitxers generats per Docker
+docker-compose.override.yml
+*.bak
+
+# Fitxers de tests (opcional)
+.coverage
+htmlcov/
+.cache/
+.tox/
+nosetests.xml
+coverage.xml
+
+# Fitxers específics del projecte
+instance/
+migrations/

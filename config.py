@@ -1,7 +1,12 @@
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
 DATABASE = {
-    'dbname':'clash',
-    'user':'ubuntu',
-    'password':'J0ab#271106',
-    'host' : '51.75.123.239',
-    'port' : '3000'
+    'dbname': os.environ['DBNAME'],
+    'user':os.environ['DBUSER'],
+    'password':os.environ['DBPASS'],
+    'host' : os.environ['DBHOST'],
+    'port' : os.environ['DBPORT']
 }
